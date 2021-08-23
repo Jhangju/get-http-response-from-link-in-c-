@@ -11,11 +11,13 @@ namespace http_responce
     {
         static void Main(string[] args)
         {
+            //GET response api
             string json = new WebClient().DownloadString("https://google.com");
             Console.WriteLine(json);
             Console.ReadLine();
             
             
+            //POST response api
             
             try
             { 
